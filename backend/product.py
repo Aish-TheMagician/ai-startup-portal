@@ -3,6 +3,7 @@ import re
 from groq import Groq
 from flask_cors import CORS
 import psycopg
+from fastapi import FastAPI, Depends
 
 app = Flask(__name__)
 CORS(app)
