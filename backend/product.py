@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 import re
 from groq import Groq
 from flask_cors import CORS
+import psycopg
 
 app = Flask(__name__)
 CORS(app)
